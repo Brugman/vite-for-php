@@ -3,10 +3,12 @@
 Can Vite replace Gulp?
 
 ```sh
-/less/frontend.less > /assets/frontend.css
-/scss/frontend.scss > /assets/frontend.css
-/js/frontend.js     > /assets/frontend.js
-/js/backend.js      > /assets/backend.js
+/less/frontend.less > /public_html/assets/less-frontend.css
+/less/backend.less  > /public_html/assets/less-backend.css
+/scss/frontend.scss > /public_html/assets/scss-frontend.css
+/scss/backend.scss  > /public_html/assets/scss-backend.css
+/js/frontend.js     > /public_html/assets/frontend.js
+/js/backend.js      > /public_html/assets/backend.js
 ```
 
 ## Feature testing

@@ -1,0 +1,1 @@
+console.log( 'frontend.js is loaded' );
