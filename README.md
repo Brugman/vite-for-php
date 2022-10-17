@@ -13,20 +13,20 @@ Can Vite replace Gulp?
 
 ## Feature testing
 
-:grey_question: Run once\
+:heavy_check_mark: Run once\
 :grey_question: Run continously\
 :grey_question: Run in development mode\
 :grey_question: Run in production mode
 
-:grey_question: Compile Less to CSS\
-:grey_question: Compile SCSS to CSS\
+:heavy_check_mark: Compile Less to CSS\
+:heavy_check_mark: Compile SCSS to CSS\
 :grey_question: Compile ES to JS\
-:grey_question: Minify CSS\
-:grey_question: Minify JS\
+:heavy_check_mark: Minify CSS\
+:heavy_check_mark: Minify JS\
 :grey_question: CSS sourcemaps\
 :grey_question: JS sourcemaps\
-:grey_question: Multiple CSS tasks\
-:grey_question: Multiple JS tasks
+:heavy_check_mark: Multiple CSS tasks\
+:heavy_check_mark: Multiple JS tasks
 
 :grey_question: Reload on CSS changes\
 :grey_question: Reload on JS changes\
