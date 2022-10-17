@@ -13,10 +13,10 @@
     <title>Vite for WordPress</title>
 
     <!-- link css -->
-    <link rel="stylesheet" href="/assets/less-frontend.css">
-    <link rel="stylesheet" href="/assets/less-backend.css">
-    <link rel="stylesheet" href="/assets/scss-frontend.css">
-    <link rel="stylesheet" href="/assets/scss-backend.css">
+    <link rel="stylesheet" href="/assets/less-frontend.min.css">
+    <link rel="stylesheet" href="/assets/less-backend.min.css">
+    <link rel="stylesheet" href="/assets/scss-frontend.min.css">
+    <link rel="stylesheet" href="/assets/scss-backend.min.css">
 
 </head>
 <body>
@@ -28,8 +28,8 @@
 <div class="scss-frontend">scss-frontend</div>
 <div class="scss-backend">scss-backend</div>
 
-<script src="/assets/frontend.js"></script>
-<script src="/assets/backend.js"></script>
+<script src="/assets/frontend.min.js"></script>
+<script src="/assets/backend.min.js"></script>
 
 </body>
 </html>
