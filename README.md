@@ -23,8 +23,8 @@ Can Vite replace Gulp?
 :grey_question: Compile ES to JS\
 :heavy_check_mark: Minify CSS\
 :heavy_check_mark: Minify JS\
-:grey_question: CSS sourcemaps\
-:grey_question: JS sourcemaps\
+:x: CSS sourcemaps\
+:heavy_check_mark: JS sourcemaps\
 :heavy_check_mark: Multiple CSS tasks\
 :heavy_check_mark: Multiple JS tasks
 
