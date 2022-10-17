@@ -22,6 +22,7 @@ Can Vite replace Gulp?
 :heavy_check_mark: Compile Less to CSS\
 :heavy_check_mark: Compile SCSS to CSS\
 :heavy_check_mark: Compile ES to JS\
+:heavy_check_mark: Autoprefix CSS\
 :heavy_check_mark: Minify CSS\
 :heavy_check_mark: Minify JS\
 :x: CSS sourcemaps\
