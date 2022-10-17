@@ -34,8 +34,10 @@ Can Vite replace Gulp?
 :grey_question: Reload on PHP changes
 
 :grey_question: Notification on CSS error\
-:grey_question: Notification on JS error\
-:grey_question: Keep going on error
+:grey_question: Notification on JS error
+
+:heavy_check_mark: Keep going on CSS error\
+:heavy_check_mark: Keep going on JS error
 
 <!-- :grey_question: -->
 <!-- :x: -->
