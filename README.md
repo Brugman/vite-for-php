@@ -14,7 +14,8 @@ Can Vite replace Gulp?
 ## Feature testing
 
 :heavy_check_mark: Run once\
-:heavy_check_mark: Run continously\
+:heavy_check_mark: Run continously
+
 :grey_question: Run in development mode\
 :grey_question: Run in production mode
 
