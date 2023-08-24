@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/assets/less-backend.css">
     <link rel="stylesheet" href="/assets/scss-frontend.css">
     <link rel="stylesheet" href="/assets/scss-backend.css">
+    <style>
+    body { background-color: #000; color: #fff; font-family: Arial; font-size: 18px; }
+    </style>
 
 </head>
 <body>
@@ -27,6 +30,8 @@
 <div class="less-backend">less-backend</div>
 <div class="scss-frontend">scss-frontend</div>
 <div class="scss-backend">scss-backend</div>
+<div class="js-frontend">js-frontend</div>
+<div class="js-backend">js-backend</div>
 
 <script src="/assets/frontend.js"></script>
 <script src="/assets/backend.js"></script>
