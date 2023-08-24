@@ -25,14 +25,14 @@ Can Vite replace Gulp?
 :heavy_check_mark: Autoprefix CSS\
 :heavy_check_mark: Minify CSS\
 :heavy_check_mark: Minify JS\
-:x: CSS sourcemaps\
-:heavy_check_mark: JS sourcemaps\
+:grey_question: CSS sourcemaps\
+:grey_question: JS sourcemaps\
 :heavy_check_mark: Multiple CSS tasks\
 :heavy_check_mark: Multiple JS tasks
 
-:grey_question: Reload on CSS changes\
-:grey_question: Reload on JS changes\
-:grey_question: Reload on PHP changes
+:heavy_check_mark: Reload on CSS changes\
+:heavy_check_mark: Reload on JS changes\
+:heavy_check_mark: Reload on PHP changes
 
 :grey_question: Notification on CSS error\
 :grey_question: Notification on JS error
