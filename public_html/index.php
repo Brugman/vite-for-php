@@ -1,3 +1,13 @@
+<?php
+
+define( 'VITE', true );
+
+function maybe_use_vite()
+{
+    return ( defined('VITE') && VITE ? 'http://localhost:5173' : '' );
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,10 +23,10 @@
     <title>Vite for WordPress</title>
 
     <!-- link css -->
-    <link rel="stylesheet" href="/assets/less-frontend.css">
-    <link rel="stylesheet" href="/assets/less-backend.css">
-    <link rel="stylesheet" href="/assets/scss-frontend.css">
-    <link rel="stylesheet" href="/assets/scss-backend.css">
+    <link rel="stylesheet" href="<?=maybe_use_vite();?>/assets/frontend-less.min.css">
+    <link rel="stylesheet" href="<?=maybe_use_vite();?>/assets/backend-less.min.css">
+    <link rel="stylesheet" href="<?=maybe_use_vite();?>/assets/frontend-scss.min.css">
+    <link rel="stylesheet" href="<?=maybe_use_vite();?>/assets/backend-scss.min.css">
     <style>
     body { background-color: #000; color: #fff; font-family: Arial; font-size: 18px; }
     </style>
@@ -33,8 +43,8 @@
 <div class="js-frontend">js-frontend</div>
 <div class="js-backend">js-backend</div>
 
-<script src="/assets/frontend.js"></script>
-<script src="/assets/backend.js"></script>
+<script src="<?=maybe_use_vite();?>/assets/frontend.min.js"></script>
+<script src="<?=maybe_use_vite();?>/assets/backend.min.js"></script>
 
 </body>
 </html>
