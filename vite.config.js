@@ -1,5 +1,12 @@
+import liveReload from 'vite-plugin-live-reload'
+
 export default {
   root: 'public_html/',
+  plugins: [
+    liveReload([
+      '**/*.php',
+    ]),
+  ],
   build: {
     emptyOutDir: false,
     copyPublicDir: false,

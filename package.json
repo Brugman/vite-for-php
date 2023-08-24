@@ -11,6 +11,7 @@
   "devDependencies": {
     "less": "^4.2.0",
     "sass": "^1.66.1",
-    "vite": "^4.4.9"
+    "vite": "^4.4.9",
+    "vite-plugin-live-reload": "^3.0.2"
   }
 }
