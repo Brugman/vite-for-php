@@ -7,6 +7,11 @@ export default {
       '**/*.php',
     ]),
   ],
+  clearScreen: false,
+  appType: 'custom',
+  server: {
+    strictPort: true,
+  },
   build: {
     emptyOutDir: false,
     copyPublicDir: false,
