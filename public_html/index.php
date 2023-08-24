@@ -7,6 +7,12 @@ function maybe_use_vite()
     return ( defined('VITE') && VITE ? 'http://localhost:5173' : '' );
 }
 
+function maybe_use_vite_client()
+{
+    if ( defined('VITE') && VITE )
+        echo '<script type="module" src="http://localhost:5173/@vite/client"></script>';
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,6 +49,7 @@ function maybe_use_vite()
 <div class="js-frontend">js-frontend</div>
 <div class="js-backend">js-backend</div>
 
+<?php maybe_use_vite_client(); ?>
 <script src="<?=maybe_use_vite();?>/assets/frontend.min.js"></script>
 <script src="<?=maybe_use_vite();?>/assets/backend.min.js"></script>
 
