@@ -15,6 +15,8 @@ Some of these can probably be overcome by adding more modules and adding further
 
 My opinion may change in the future. The `method-e` branch came closest to my goals, if you wish to continue testing.
 
+A related repo of mine is [vite-for-wordpress](https://github.com/Brugman/vite-for-wordpress).
+
 ## Inputs & outputs
 
 ```sh
