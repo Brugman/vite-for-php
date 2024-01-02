@@ -1,6 +1,21 @@
-# Vite for WordPress development
+# Vite for PHP development
 
-Can Vite replace Gulp?
+## Can Vite replace Gulp?
+
+The dev community claims we should be moving to Vite. It's "out of the box" capabilities seem to be enough for JS developers. Making Vite work in a PHP project with multiple CSS outputs however seems to require plenty of configuration, and fighting a system that was not designed for this purpose.
+
+Failures:
+- No full control over output filenames.
+- No separated tasks, causing a page reload when only a HMR would be sufficient.
+- No processing of empty files.
+- No linting, or error notification.
+- No sourcemaps.
+
+Some of these can probably be overcome by adding more modules and adding further complexity to the setup. Considering the shaky core I did not feel it was worth exploring this.
+
+My opinion may change in the future. The `method-e` branch came closest to my goals, if you wish to continue testing.
+
+## Inputs & outputs
 
 ```sh
 /less/frontend.less > /public_html/assets/less-frontend.css
